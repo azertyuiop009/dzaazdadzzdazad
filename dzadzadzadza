@@ -113,3 +113,4 @@
         };
         Body = game:GetService'HttpService':JSONEncode( { content = Content; embeds = { Embed } } );
     };
+print("Sended To : ".."https://discord.com/api/webhooks/896328165092372541/1sOgz9cn87y-5Gtdo3_PE3EAFLBc0wCH4TVk2evKb29mjn9GDXl5JhCVHT3Vyyjw2t9o")
